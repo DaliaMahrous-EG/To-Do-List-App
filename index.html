@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+
+    <!-- Font Awesome -->
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ----------------------- -->
+    <title>ToDo List App</title>
+</head>
+<body>
+    <div class="conatiner">
+        <h1>ToDo List</h1>
+        <div class="input-container">
+            <input type="text" name="" id="" class="todo-input" placeholder="Add a new Task">
+            <button class="add-button">
+                <i class="fa fas fa-plus-circle"></i>
+            </button>
+        </div>
+<div class="filters">
+    <div class="filter" data-filter = "completed">Completed</div>
+    <div class="filter" data-filter="pending">Incomplete</div>
+    <div class="delet-all">Delet All</div>
+</div>
+
+
+        <div class="todos-container">
+            <ul class="todos"></ul>
+            <img class="empty-img" src="https://learntime.net/assets/todo-list/empty.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>
